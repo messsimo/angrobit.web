@@ -20,144 +20,35 @@ a, button {
     cursor: pointer;
 }
 
-/* Styles for header */
-header {
-    background-color: rgba(12, 39, 62, 1);
-    height: 126px;
+/* Styles for hero block */
+.hero {
+    background-image: url("../images/hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 760px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-header .right-container {
-    display: flex;
-    line-height: 126px;
-    margin: 0 0 0 25px;
+.hero .text {
+    margin-top: 250px;
+    margin-left: 58px;
 }
 
-header .right-container .logo-name {
-    display: flex;
-    position: relative;
-    /* border-right: 1px solid rgba(45, 213, 221, 0.8);
-    border-bottom: 1px solid rgba(45, 213, 221, 0.8); */
-}
-
-header .right-container .logo-name img {
-    width: 50px;
-    height: 36px;
-    margin-top: 44px;
-    margin-right: 10px;
-}
-
-header .right-container .logo-name h2 {
+.hero .text h2, 
+.hero .text h3 {
     color: white;
-    font-size: 27px;
+    font-size: 43px;
     font-weight: 600;
-    margin-right: 50px;
-    text-shadow: 0px 0px 22.28px 0px rgba(178, 251, 255, 0.25);
+    text-transform: uppercase;
 }
 
-header .right-container .dropmenu {
-    display: flex;
-    margin-left: 15px;
+.hero .text h3 {
+    font-size: 74px;
 }
 
-header .right-container .dropmenu a,
-header .right-container .dropmenu p {
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    text-shadow: 0px 0px 12.9px 0px rgba(178, 251, 255, 0.25);
-}
-
-header .right-container .dropmenu a {
-    margin-right: 25px;
-}
-
-header .left-container {
-    display: flex;
-    line-height: 126px;
-    padding: 0 25px 0 0;
-}
-
-header .left-container .language {
-    display: flex;
-    height: 20px;
-    margin-right: 25px;
-}
-
-header .left-container .language .text .color {
-    box-shadow: 0px 9.8px 19.6px 0px rgba(98, 155, 174, 0.1),
-                0px 3.27px 3.27px 0px rgba(98, 155, 174, 0.2) inset,
-                0px -3.27px 3.27px 0px rgba(98, 155, 174, 0.2) inset,
-                0px 0px 18px 0px rgba(98, 155, 174, 0.25);
-    border-radius: 5px;
-    background-color: rgba(107, 185, 195, 0.3);
-    padding: 5px 10px; 
-    height: 20px;
-    width: 45px;
-    margin-top: 48px;
-    right: 320px;
-    position: absolute;
-
-}
-
-header .left-container .language .text p {
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    /* margin-top: -5px; */
-}
-
-header .left-container .language .text p b {
-    background-color: transparent;
-    background-color: rgba(12, 39, 62, 1);
-    padding: 2px;
-    position: relative;
-    border-radius: 2px;
-}
-
-
-header .left-container .language img {
-    width: 10px;
-    height: 5px;
-    margin-top: 62px;
-    margin-left: 5px;
-}
-
-header .left-container .btns a {
-    padding: 15px 40px;
-    border-radius: 10px;
-    border: 1px solid rgba(107, 185, 195, 1);
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    margin-right: 15px;
-    box-shadow: 0px 9.8px 19.6px 0px rgba(98, 155, 174, 0.1);
-    box-shadow: 0px 3.27px 3.27px 0px rgba(98, 155, 174, 0.2) inset;
-    box-shadow: 0px -3.27px 3.27px 0px rgba(98, 155, 174, 0.2) inset;
-    box-shadow: 0px 0px 18px 0px rgba(98, 155, 174, 0.25);
-}
-
-header .left-container .btns a:last-child {
-    margin-right: 0;
-}
-
-header .logo {
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-    width: 197px;
-    height: 161px;
-    margin-right: 50px;
-}
-
-header .logo .sub-block {
-    width: 270px;
-    height: 50px;
-    background-color: rgba(12, 39, 62, 1);
-    margin-top: 90px;
-    position: absolute;
-    clip-path: polygon(0 0, 100% 0, 100% 0%, 80% 90%, 20% 90%, 0 0%);
+.hero .shops {
+    margin-top: 600px;
+    margin-right: 100px;
 }
