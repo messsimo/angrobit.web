@@ -73,8 +73,8 @@ a, button {
 
 .menu .container .nav {
     float: right;
-    margin-top: 200px;
-    padding-right: 100px;
+    margin-top: 170px;
+    padding-right: 70px;
 }
 
 .menu .container .nav ul {
@@ -87,13 +87,21 @@ a, button {
     font-weight: 400;
     font-family: "Orbitron", serif;
     margin-bottom: 25px;
-    border-bottom: 2px solid rgba(107, 185, 195, 1);
+    /* border-bottom: 2px solid rgba(107, 185, 195, 1); */
 }
 
 .menu .container .nav ul li a {
     color: white;
     text-decoration: none;  
     text-align: right;
+}
+
+.menu .container .nav ul img {
+    position: relative;
+    top: -50px;
+    left: 70px;
+    width: 228px;
+    height: 30px;
 }
 
 .menu .top-block,
@@ -114,3 +122,73 @@ a, button {
 .menu .top-block {
     clip-path: polygon(0 0, 150% 0, 100% 0%, 95% 100%, 10% 150%, 0 0%);
 }  
+
+/* Styles for news block */
+.news {
+    background-color: rgba(12, 39, 62, 1);
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.news .deco {
+    position: absolute;
+    z-index: -999;
+    right: 0;
+    top: 100px;
+}
+
+.news .deco-bottom {
+    float: left;
+    left: 0;
+    top: 800px;
+}
+
+.news .block-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .block-name h2 {
+    font-size: 80px;
+    font-weight: 400;
+    color: white;
+    font-family: "Orbitron", serif;
+}
+
+.news .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+
+}
+
+.news .container .block {
+    display: flex;
+    flex-direction: column;
+}
+
+.news .container .block img {
+    width: 119px;
+    height: 136px;
+    margin-bottom: 50px;
+}
+
+.news .container .block-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+.news .container .block-center img:first-child {
+    position: relative;
+}
+
+.news .container .block-center .img {
+    margin-top: -45px;
+}
+
+.news .container .block-center img:last-child {
+    margin-top: -10px;
+}
