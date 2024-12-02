@@ -5,6 +5,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 0px 46.8px 0px rgba(0, 25, 46, 0.5);
 }
 
 header .right-container {

@@ -1,0 +1,59 @@
+/* Styles for footer */
+footer {
+    background-color: rgba(12, 39, 62, 1);
+}
+
+footer .main-block {
+    background-color: rgba(178, 251, 255, 0.02);
+    clip-path: polygon(0% 0%, 20% 0%, 21% 5%, 80% 5%, 81% 0%, 100% 0%, 100% 100%, 0% 100%);
+    /* box-shadow: 0px 0px 46.8px 0px rgba(0, 25, 46, 0.5); */
+}
+
+footer .main-block .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+footer .main-block .container .logo {
+    width: 115px;
+    height: 67px;
+    margin-top: 100px;
+}
+
+footer .main-block .container .nav {
+    display: flex;
+}
+
+footer .main-block .container .nav .block {
+    display: grid;
+    place-items: center;
+    margin-right: 50px;
+}
+
+footer .main-block .container .nav .block:last-child {
+    margin-right: 0;
+}
+
+footer .main-block .container .nav .block p {
+    color: white;
+    font-family: "Orbitron", serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+footer .main-block .container .nav .block a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: "Lora", serif;
+}
+
+footer .main-block .container .socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

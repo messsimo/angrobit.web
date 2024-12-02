@@ -127,8 +127,8 @@ a, button {
 .news {
     background-color: rgba(12, 39, 62, 1);
     width: 100%;
-    position: absolute;
-    z-index: 1;
+    /* position: relative;
+    z-index: 1; */
 }
 
 .news .deco {
@@ -160,7 +160,6 @@ a, button {
     display: flex;
     justify-content: space-between;
     padding: 100px;
-
 }
 
 .news .container .block {

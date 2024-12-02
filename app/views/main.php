@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Connecting CSS -->
     <link rel="stylesheet" href="/public/src/css/header.css">
+    <link rel="stylesheet" href="/public/src/css/footer.css">
     <link rel="stylesheet" href="/public/src/css/main.css">
     <title>AngroBit</title>
 </head>
@@ -79,7 +80,12 @@
                 <img src="/public/src/images/instagram.png">
             </div>
         </div>
-        <img class="deco deco-bottom" src="/public/src/images/deco_news.png">
+        <!-- <img class="deco deco-bottom" src="/public/src/images/deco_news.png"> -->
     </div>
+
+    <!-- Conntecting footer -->
+    <?php 
+        require_once $_SERVER['DOCUMENT_ROOT'] . '/app/blocks/footer.php';
+    ?>
 </body>
 </html>
